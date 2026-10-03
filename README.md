@@ -1,4 +1,7 @@
 # GlmBridge 
+# There is no viruses - vibecoded by glm itself , screenshot of conversation 
+<img width="1394" height="505" alt="image" src="https://github.com/user-attachments/assets/d8376ba0-b301-4a62-87fe-1e43196278af" />
+
 
 **Let the Glm Agent in your chat drive your Roblox Studio — directly, live, no extensions.**
 
