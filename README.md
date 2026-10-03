@@ -182,7 +182,7 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
 No — it ships **inside Roblox Studio itself** (it sits in the same version folder as `RobloxStudio.exe` under `%LOCALAPPDATA%\Roblox\Versions`). GlmBridge never downloads or installs it; the relay just auto-discovers it — including after Studio auto-updates, because it always picks the newest version folder. If you don't see **Manage MCP Servers** in the Assistant panel at all, your Studio is too old — just update Roblox Studio.
 
 **Does it work on Mac/Linux?**
-Built for Windows (it auto-discovers `StudioMCP.exe` under `%LOCALAPPDATA%\Roblox\Versions`). Advanced users can try `GLM_STUDIO_MCP_PATH`, but Windows is the supported path.
+No. Built for Windows (it auto-discovers `StudioMCP.exe` under `%LOCALAPPDATA%\Roblox\Versions`). Advanced users can try `GLM_STUDIO_MCP_PATH`, but Windows is the supported path.
 
 **Can my friends use their own Studio with it?**
 Yes — each person runs their own `glmbridge.zip` → `START_HERE.bat` on their PC and pastes their own URL into the chat. One relay per Studio.
