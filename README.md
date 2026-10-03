@@ -99,6 +99,8 @@ House rules:
 The AI composes Luau, pushes it through the bridge, then verifies — exactly like a developer sitting in your Studio.
 
 ---
+<img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/768e9a5f-772e-42e6-b332-6b9a9ae906bc" />
+<img width="648" height="128" alt="image" src="https://github.com/user-attachments/assets/6c78bc47-8b7c-4979-ae16-d5148d2b1aca" />
 
 ## 🔧 Manual usage (without an AI)
 
@@ -147,7 +149,7 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
 | `README.md` | Short bundled docs |
 
 ---
-<img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/20b3a574-5733-4b54-83cd-2fc2b36523c6" />
+
 
 ## 🔒 Safety — read once
 
