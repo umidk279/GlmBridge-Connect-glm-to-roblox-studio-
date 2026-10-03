@@ -97,11 +97,12 @@ House rules:
 
 
 The AI composes Luau, pushes it through the bridge, then verifies — exactly like a developer sitting in your Studio.
+<img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/42ab22c3-7faf-43d8-a3cd-50f6ed17c2e1" />
+<img width="885" height="647" alt="image" src="https://github.com/user-attachments/assets/3548b712-f1d1-4716-8e18-5736369eb07b" />
 
 ---
 
-<img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/768e9a5f-772e-42e6-b332-6b9a9ae906bc" />
-<img width="648" height="128" alt="image" src="https://github.com/user-attachments/assets/6c78bc47-8b7c-4979-ae16-d5148d2b1aca" />
+
 ## 🔧 Manual usage (without an AI)
 
 ```bash
