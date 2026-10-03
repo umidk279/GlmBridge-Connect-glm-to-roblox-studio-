@@ -63,7 +63,7 @@ Copy that URL, paste it into your AI chat together with the connect prompt below
 
 ---
 
-## 💬 The prompt for GLM (copy-paste this)
+## 💬 The prompt for GLM (edit how you want)
 
 Send this to the AI in your chat, with your fresh URL pasted in:
 
