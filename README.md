@@ -147,6 +147,7 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
 | `README.md` | Short bundled docs |
 
 ---
+<img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/20b3a574-5733-4b54-83cd-2fc2b36523c6" />
 
 ## 🔒 Safety — read once
 
