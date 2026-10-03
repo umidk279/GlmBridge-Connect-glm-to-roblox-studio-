@@ -104,6 +104,7 @@ The AI composes Luau, pushes it through the bridge, then verifies — exactly li
 
 <img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/42ab22c3-7faf-43d8-a3cd-50f6ed17c2e1" />
 <img width="549" height="116" alt="image" src="https://github.com/user-attachments/assets/34e4e9dc-9f35-4110-9bf5-42b1da0df817" />
+<img width="570" height="130" alt="image" src="https://github.com/user-attachments/assets/9da07988-470e-4f0d-9fe7-3484f73340f6" />
 
 
 ---
