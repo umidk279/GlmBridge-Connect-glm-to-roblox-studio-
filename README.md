@@ -32,6 +32,8 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 > **You need:** Windows 10/11, [Roblox Studio](https://www.roblox.com/create) installed, and Python 3 or higher.
 
 ### 0 — Type chat.z.ai in Google search and switch to Agent mode (top left), and choose your favorite model (GLM 5.3 Flash recommended)
+<img width="703" height="94" alt="image" src="https://github.com/user-attachments/assets/9fb1d246-8f8d-4220-b159-577dfdf53282" />
+<img width="477" height="137" alt="image" src="https://github.com/user-attachments/assets/8851a890-71aa-4089-adff-51a06d159298" />
 
 ### 1 — Install Python 3 (skip if you have it)
 
@@ -45,6 +47,10 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 2. Click **Assistant AI** in the top bar.
 3. Click the **⋯** (top-right of the Assistant panel) → **Manage MCP Servers**.
 4. Click **Enable Studio as MCP Server**.
+<img width="62" height="81" alt="image" src="https://github.com/user-attachments/assets/34fcb92e-e9b4-40e1-88db-e050c6c747c2" />
+<img width="346" height="517" alt="image" src="https://github.com/user-attachments/assets/11a86ad2-c746-4630-b60c-346a35d6f3e6" />
+<img width="235" height="216" alt="image" src="https://github.com/user-attachments/assets/49d8ee8a-cd0a-4ee7-93c3-4cfb1328212d" />
+<img width="896" height="193" alt="image" src="https://github.com/user-attachments/assets/7dbbbb78-4c3f-4b68-9bdb-e9e407011d43" />
 
 ### 3 — Run GlmBridge
 
