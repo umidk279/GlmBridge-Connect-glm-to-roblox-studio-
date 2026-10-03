@@ -1,4 +1,4 @@
-# GlmBridge 🌉
+# GlmBridge 
 
 **Let the Glm Agent in your chat drive your Roblox Studio — directly, live, no extensions.**
 
@@ -100,7 +100,7 @@ House rules:
 - Then ask me what I want to build first.
 ```
 
-The AI composes Luau, pushes it through the bridge, then verifies — exactly like a developer sitting in your Studio.
+The AI composes Luau, pushes it through the bridge, then verifies — exactly like a developer sitting in your Studio and outputs tool calls in command prompt.
 
 <img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/42ab22c3-7faf-43d8-a3cd-50f6ed17c2e1" />
 <img width="549" height="116" alt="image" src="https://github.com/user-attachments/assets/34e4e9dc-9f35-4110-9bf5-42b1da0df817" />
@@ -108,7 +108,7 @@ The AI composes Luau, pushes it through the bridge, then verifies — exactly li
 
 ---
 
-## 🔧 Manual usage (without an AI)
+##  Manual usage (without an AI)
 
 ```bash
 # status / tools
@@ -129,7 +129,7 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
   -d '{"tool":"execute_luau","arguments":{"code":"print(workspace:GetFullName())","datamodel_type":"Edit"},"timeout":30}'
 ```
 
-## 📡 Endpoints
+##  Endpoints
 
 | Endpoint | Description |
 |---|---|
@@ -138,14 +138,14 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
 | `GET /tools` | Live tool list with JSON schemas |
 | `POST /call` | `{"tool": "...", "arguments": {...}, "timeout": 60}` |
 
-## ⚙️ Configuration
+##  Configuration
 
 | Env var | Default | Purpose |
 |---|---|---|
 | `GLM_RELAY_PORT` | `8510` | Local relay port |
 | `GLM_STUDIO_MCP_PATH` | auto-discovered | Override path to `StudioMCP.exe` |
 
-## 📦 Files in the zip
+## Files in the zip
 
 | File | What it is |
 |---|---|
@@ -156,18 +156,19 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
 
 ---
 
-## 🔒 Safety — read once
+##  Safety — read once
 
 - **The bridge has no token auth (by design).** The tunnel URL is random and unguessable, but *anyone who has it can run code in your Studio.* Treat the URL like a password: don't post it publicly, and close the relay when you're done.
 - Tool calls run **real Luau in your open Place**. Save your work before big experiments — and good to know: **Ctrl+Z in Studio undoes agent edits too.**
 - Quick-tunnel URLs rotate every restart. Paste the new one each session; it's not a bug.
 - Everything happens in your local Studio. **Publishing to Roblox is always manual** — the AI never touches your published game unless you press publish.
 
-## 🩹 Troubleshooting
+##  Troubleshooting
 
 | Symptom | Fix |
 |---|---|
 | `Python 3 was not found` | Install Python, tick **Add python.exe to PATH**, run the bat again. |
+| `Glm Agent tells Doctypeh is not valid json or something else and errors without respond` | might need to wait or resend your message, waiting might take hours or more so glm 5.3 flash is recommended. |
 | Status page says `StudioMCP.exe not found` | Open Roblox Studio once, then restart the bat. Studio must be a normal (per-user) install so it exists in `%LOCALAPPDATA%\Roblox\Versions`. |
 | `0 tools` / prompt about MCP toggle | Redo step 2 of Quick start, then restart `START_HERE.bat`. |
 | The URL stopped responding | Relay window closed / laptop slept → re-run the bat and paste the **new** URL. |
