@@ -31,6 +31,7 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 ##  Quick start 
 
 > **You need:** Windows 10/11, [Roblox Studio](https://www.roblox.com/create) installed, and Python 3 or higher.
+### 0 Type chat.z.ai in google search and switch to agent mode (top left) And choose your favorite model (Glm 5.3 Flash recommended)
 
 ### 1 — Install Python 3 (skip if you have it)
 
@@ -51,8 +52,8 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 2. Double-click **`START_HERE.bat`**.
 3. First run auto-downloads `cloudflared.exe` (~20 MB, one time). Then wait for:
 
-   ```                  (random words will appear)
-   PUBLIC URL:  https://something-random.trycloudflare.com
+   ```                  
+   PUBLIC URL:  https://random-words.trycloudflare.com
    ```
 
 ### 4 — Connect the AI
