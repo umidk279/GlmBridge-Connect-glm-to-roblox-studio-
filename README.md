@@ -1,6 +1,6 @@
 # GlmBridge 🌉
 
-**Let the AI in your chat drive your Roblox Studio — directly, live, no extensions.**
+**Let the Glm Agent in your chat drive your Roblox Studio — directly, live, no extensions.**
 
 GlmBridge connects an AI agent (GLM, or any AI that can send HTTP requests) straight into **your** Roblox Studio. The AI builds parts, writes game logic, spawns particles, takes screenshots to check its own work, and iterates with you in real time — while you watch it happen in the editor.
 
