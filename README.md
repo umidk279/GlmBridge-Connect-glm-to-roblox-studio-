@@ -28,7 +28,7 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 
 ---
 
-## 🚀 Quick start (from scratch, ~3 minutes)
+##  Quick start 
 
 > **You need:** Windows 10/11, [Roblox Studio](https://www.roblox.com/create) installed, and Python 3 or higher.
 
