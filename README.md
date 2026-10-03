@@ -64,7 +64,7 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 
 ### 4 — Connect the AI
 
-Copy that URL, paste it into your AI chat together with the connect prompt below ⬇️ — done. Keep the relay window open while building (closing it kills the tunnel).
+Copy that URL, paste it into your AI chat together with the connect prompt below ⬇️ — done. Keep the relay window open while building (closing it kills the tunnel and dont forget about roblox studio).
 
 > The URL **rotates on every restart** of the bat file. That's normal — just paste the new one in chat.
 
