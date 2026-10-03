@@ -4,12 +4,11 @@
 
 GlmBridge connects an AI agent (GLM, or any AI that can send HTTP requests) straight into **your** Roblox Studio. The AI builds parts, writes game logic, spawns particles, takes screenshots to check its own work, and iterates with you in real time — while you watch it happen in the editor.
 
-
 No browser extension. No special command language. Just a tiny Python relay, Roblox Studio's own built-in MCP server, and a URL.
 
 ---
 
-##  What the AI can do once connected
+## What the AI can do once connected
 
 Everything Studio's MCP server exposes — typically 28 tools, including:
 
@@ -28,10 +27,11 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 
 ---
 
-##  Quick start 
+## Quick start
 
 > **You need:** Windows 10/11, [Roblox Studio](https://www.roblox.com/create) installed, and Python 3 or higher.
-### 0 Type chat.z.ai in google search and switch to agent mode (top left) And choose your favorite model (Glm 5.3 Flash recommended)
+
+### 0 — Type chat.z.ai in Google search and switch to Agent mode (top left), and choose your favorite model (GLM 5.3 Flash recommended)
 
 ### 1 — Install Python 3 (skip if you have it)
 
@@ -52,7 +52,7 @@ The live list (with parameter schemas) is always at `GET /tools`, or open the br
 2. Double-click **`START_HERE.bat`**.
 3. First run auto-downloads `cloudflared.exe` (~20 MB, one time). Then wait for:
 
-   ```                  
+   ```
    PUBLIC URL:  https://random-words.trycloudflare.com
    ```
 
@@ -92,15 +92,14 @@ House rules:
 - Verify your own work (list what you created, read back source) before telling me it's done.
 - Ask me before deleting or rewriting anything you didn't create yourself.
 - Then ask me what I want to build first.
-
-
-
+```
 
 The AI composes Luau, pushes it through the bridge, then verifies — exactly like a developer sitting in your Studio.
 
+<img width="783" height="794" alt="image" src="https://github.com/user-attachments/assets/42ab22c3-7faf-43d8-a3cd-50f6ed17c2e1" />
+<img width="885" height="647" alt="image" src="https://github.com/user-attachments/assets/3548b712-f1d1-4716-8e18-5736369eb07b" />
 
 ---
-
 
 ## 🔧 Manual usage (without an AI)
 
@@ -150,7 +149,6 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
 
 ---
 
-
 ## 🔒 Safety — read once
 
 - **The bridge has no token auth (by design).** The tunnel URL is random and unguessable, but *anyone who has it can run code in your Studio.* Treat the URL like a password: don't post it publicly, and close the relay when you're done.
@@ -172,6 +170,9 @@ curl -s -X POST https://xxxx.trycloudflare.com/call \
 
 ## ❓ FAQ
 
+**Do I need to download `StudioMCP.exe` separately?**
+No — it ships **inside Roblox Studio itself** (it sits in the same version folder as `RobloxStudio.exe` under `%LOCALAPPDATA%\Roblox\Versions`). GlmBridge never downloads or installs it; the relay just auto-discovers it — including after Studio auto-updates, because it always picks the newest version folder. If you don't see **Manage MCP Servers** in the Assistant panel at all, your Studio is too old — just update Roblox Studio.
+
 **Does it work on Mac/Linux?**
 Built for Windows (it auto-discovers `StudioMCP.exe` under `%LOCALAPPDATA%\Roblox\Versions`). Advanced users can try `GLM_STUDIO_MCP_PATH`, but Windows is the supported path.
 
@@ -186,7 +187,7 @@ Any AI that can make HTTP requests with a JSON body — GLM, and most other assi
 
 ---
 
-## 🙏 Credits(Zeroscript)
+## 🙏 Credits (Zeroscript)
 
 Built on Roblox Studio's **built-in MCP server** (`StudioMCP.exe`). Inspired by the ZeroScript browser-extension approach — GlmBridge replaces the extension with a small direct relay so any AI can drive Studio server-to-server.
 
